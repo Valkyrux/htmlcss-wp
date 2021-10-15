@@ -43,25 +43,16 @@
 
 /* image container */
 .image-container{
-    background-color:#e1d67a;
-    border-radius: 8px;
     height: 400px;
-    overflow: hidden;
+    border-radius: 8px;
+    background-image: url(../img/banner.jpg);
+    background-position: center;
 }
 
-.image-container img{
-    margin: 0;
-    position: relative;
-    top: -130px;
-    left: -20px;
-}
 /* image-tile, trasparent-pad */
 .image-title{
-    position: relative;
     margin: 0px;
     height: 400px;
-    top: -687px;
-    display: flexbox;
     padding-left: 1em;
     padding-right: 30%;
     padding-top: 23%;
