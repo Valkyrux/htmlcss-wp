@@ -29,9 +29,10 @@
     border-right: 1px solid lightslategray;
 }
 
+/* nav */
 .nav{
-    margin: 10px 0;
-    font-size: 15px;
+    margin: 2em 0;
+    font-size: 1em;
 }
 
 .nav a{
@@ -42,9 +43,37 @@
 
 /* image container */
 .image-container{
-    height: 400px;
     background-color:#e1d67a;
+    border-radius: 8px;
+    height: 400px;
+    overflow: hidden;
 }
+
+.image-container img{
+    margin: 0;
+    position: relative;
+    top: -130px;
+    left: -20px;
+}
+
+.image-title{
+    position: relative;
+    margin: 0px;
+    height: 400px;
+    top: -687px;
+    display: flexbox;
+    padding-left: 1em;
+    padding-right: 30%;
+    padding-top: 23%;
+    color: white;
+    background-color: rgba(100, 100, 100, 0.2);
+    font-size: 0.8em;
+}
+
+.image-title *{
+    font-weight: normal;
+}
+
 /* main background */
 main{
     background-color: #0086ff;
