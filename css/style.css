@@ -1,0 +1,67 @@
+/* basic layout */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.page{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.page *{
+    margin: 20px;
+}
+/* header */
+header{
+    height: 70px;
+    background-color:#e579e6;
+}
+/* image container */
+.image-container{
+    height: 400px;
+    background-color:#e1d67a;
+}
+/* main background */
+main{
+    background-color: #0086ff;
+}
+/* main header */
+.header-ofcolumn{
+    height: 50px;
+}
+/* columns layout */
+div[class*="-column"]{
+    float: left;
+    height: 300px;
+    margin-top: 0;
+}
+
+div[class*="column"]{
+    background-color: #abcfe7;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.side-column{
+    width: calc(20% - 20px);
+}
+
+div[class*="middle"]{
+    width: 60%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* clear-fix, only for main tag */
+main::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* footer */
+footer{
+    height: 50px;
+    background-color: #8801fe;
+}
