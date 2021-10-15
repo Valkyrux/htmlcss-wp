@@ -3,22 +3,43 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border-radius: 8px;
+    /* border-radius: 8px; */
 }
 
 .page{
     width: 80%;
     margin: 0px auto;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .page *{
     margin: 20px;
 }
 /* header */
-header{
-    height: 70px;
-    background-color:#e579e6;
+.page header{
+    margin-top: 0px;
+    /* background-color: #0086ff; */
 }
+
+.logo{
+    width: 15%;
+    margin-top: -0.01%;
+    margin-bottom: 0px;
+    padding-right: 1%;
+    border-right: 1px solid lightslategray;
+}
+
+.nav{
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.nav a{
+    margin: 5px;
+    text-decoration: none;
+    color: lightslategray;
+}
+
 /* image container */
 .image-container{
     height: 400px;
